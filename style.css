@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@300;400;500;600');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Exo", sans-serif;
+}
+
+body{
+    background: #23998296;
+}
+.tittle{
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    margin: 40px;
+}
+
+.content{
+    max-width: 520px;
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(86, 85, 85, 0.347);
+    backdrop-filter: blur(200px);
+    /* background: linear-gradient(130deg, #2fe0bc, #67949f); */
+    padding: 40px 35px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+}
+.search-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+
+}
+
+.search-box input{
+    border: none;
+    outline: none;
+    height: 50px;
+    background: #ebfffc;
+    padding: 10px 25px;
+    width: 65%;
+    border-radius: 15px;
+    font-size: 16px;
+    color: #6f6f6f;
+}
+
+.search-box  button{
+    align-items: center;
+    text-align: center;
+    border: none;
+    outline: none;
+    background: #ebfffc;
+    padding: 10px 25px;
+    height: 50px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.search-box  button:active{
+    scale: 0.97;
+}
+
+.search-box button img{
+    position: absolute;
+    margin-left: -8px;
+    width: 16px;
+    height: 16px;
+    margin-top: 4px;
+}
+
+.search-box button span{
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.weather-icon{
+    width: 200px;
+    margin-top: 20px;
+}
+
+.temp{
+    font-size: 80px;
+    font-weight: 500;
+}
+ 
+.city{
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.details .info{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.details .info .humidity,
+.details  .info .wind{
+    font-size: 30px;
+}
+
+.details .info img{
+    width: 60px;
+    margin-right: 12px;
+}
+
+.details .info p{
+    font-size: 18px;
+    font-weight: 400
+}
+
+#weatherInfo{
+    display: none;
+}
