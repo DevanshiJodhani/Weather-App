@@ -9,6 +9,6 @@ I have created a Weather App using HTML, CSS, and JavaScript with API integratio
 5. Scroll down and find the "Built-in API request by city name" option.
 6. Copy the first API URL.
 
-- In this URL, you need to add an API key.
+# In this URL, you need to add an API key.
 
-# To obtain an API key, go to your profile settings and click on 'My API Key.' In this section, you will find a default API key that you want to activate, and then you can use it in the URL.
+## To obtain an API key, go to your profile settings and click on 'My API Key.' In this section, you will find a default API key that you want to activate, and then you can use it in the URL.
