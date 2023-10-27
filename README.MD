@@ -1,5 +1,5 @@
 # Weather App
-I have created a Weather App using HTML, CSS, and JavaScript with API integration.
+I have created a Weather App using HTML, CSS and JavaScript with API integration.
 
 ## API Key 
 1. Search for "OpenWeather" in your browser.
